@@ -305,11 +305,6 @@
                 q4: item4
             };
 
-            console.log(survey);
-
-            // // Grab the URL of the website
-            // var currentURL = window.location.origin;
-
             // AJAX post the data 
             $.post('/', survey, function(data) {
                 $('#submit-button').hide();
